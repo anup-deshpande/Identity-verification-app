@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762CD7F224F45CC60086404F /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762CD7F124F45CC60086404F /* constants.swift */; };
 		76760FB324F43046004D3BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76760FB224F43046004D3BA6 /* AppDelegate.swift */; };
 		76760FB524F43046004D3BA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76760FB424F43046004D3BA6 /* SceneDelegate.swift */; };
 		76760FB724F43046004D3BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76760FB624F43046004D3BA6 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		228A38C87CF81C4B5E2BF8E6 /* Pods_identity_verification_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_identity_verification_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762CD7F124F45CC60086404F /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		76760FAF24F43046004D3BA6 /* identity-verification-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "identity-verification-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76760FB224F43046004D3BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76760FB424F43046004D3BA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				76760FBB24F43047004D3BA6 /* Assets.xcassets */,
 				76760FBD24F43047004D3BA6 /* LaunchScreen.storyboard */,
 				76760FC024F43047004D3BA6 /* Info.plist */,
+				762CD7F124F45CC60086404F /* constants.swift */,
 			);
 			path = "identity-verification-app";
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				C5A2E476944DC09CAA1FE7F8 /* Pods-identity-verification-app.debug.xcconfig */,
 				AB653F3EE07E4D79B8FDB438 /* Pods-identity-verification-app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +230,7 @@
 				76760FB724F43046004D3BA6 /* ViewController.swift in Sources */,
 				76760FB324F43046004D3BA6 /* AppDelegate.swift in Sources */,
 				76760FB524F43046004D3BA6 /* SceneDelegate.swift in Sources */,
+				762CD7F224F45CC60086404F /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
