@@ -1,0 +1,6 @@
+framework module Pods_identity_verification_app {
+  umbrella header "Pods-identity-verification-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
