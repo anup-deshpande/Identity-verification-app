@@ -6,6 +6,5 @@ target 'identity-verification-app' do
   use_frameworks!
 
   # Pods for identity-verification-app
-  pod 'PersonaInquirySDK'
-  
+  pod 'PersonaInquirySDK' 
 end

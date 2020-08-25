@@ -124,10 +124,10 @@ install_xcframework() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_xcframework "${PODS_ROOT}/PersonaInquirySDK/Persona.xcframework" "" "true" "ios-arm64/Persona.framework" "ios-x86_64-simulator/Persona.framework"
+  install_xcframework "${PODS_ROOT}/PersonaInquirySDK/Persona.xcframework" "" "true" "ios-x86_64-simulator/Persona.framework" "ios-arm64/Persona.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_xcframework "${PODS_ROOT}/PersonaInquirySDK/Persona.xcframework" "" "true" "ios-arm64/Persona.framework" "ios-x86_64-simulator/Persona.framework"
+  install_xcframework "${PODS_ROOT}/PersonaInquirySDK/Persona.xcframework" "" "true" "ios-x86_64-simulator/Persona.framework" "ios-arm64/Persona.framework"
 fi
 
 echo "Artifact list stored at $ARTIFACT_LIST_FILE"

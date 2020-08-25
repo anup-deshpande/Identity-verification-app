@@ -63,6 +63,10 @@ public struct DocumentVerification : Persona.Verification {
   public let id: Swift.String
   public let status: Persona.Status
 }
+public struct DatabaseVerification : Persona.Verification {
+  public let id: Swift.String
+  public let status: Persona.Status
+}
 final public class Inquiry {
   public static var versionNumber: Swift.String {
     get

@@ -4,69 +4,77 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AddressInputViewController.nib</key>
+		<data>
+		uIdrzKCWdQYcAjeg6zMimAi9Jak=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		XeJWz1zlaK7RSc3MsTPYoISdJHI=
+		hXcwNOXw8pv8BCudkQxM98BAUZE=
 		</data>
 		<key>BeginVerifyingViewController.nib</key>
 		<data>
-		dTqUrHMzVC/KmQYoyUbSZlZbacA=
+		d4ens7nGS4SU/QO+in1e7cab1vE=
 		</data>
 		<key>BirthdateChooserViewController.nib</key>
 		<data>
-		91P4jKrj7wnstoYKlrmBirjy79Y=
+		OSVNxxWqSluk0SHL67aTxE20ooE=
+		</data>
+		<key>BirthdateInputViewController.nib</key>
+		<data>
+		TLuy0S1Gab6BMilxqzqHXX7Ibdk=
 		</data>
 		<key>CameraPermissionsViewController.nib</key>
 		<data>
-		WXbi+PVz956KOgb4HwU3reIigjQ=
+		0LqMEZ1Q8C2ccCUq73Fkf1zoikM=
 		</data>
 		<key>CancelViewController.nib</key>
 		<data>
-		vHbf3dfAh0BnP35tKV/yabovrsE=
+		hlbHwsMP+ObNH+P6wR/Ym3Qx5rQ=
 		</data>
 		<key>ConfirmGovernmentIdPhotoViewController.nib</key>
 		<data>
-		ufzllV/1m2lr9/UjmTs18fA0i3A=
+		57jI6ExHYlIHBU6FqSUt6g2YuVw=
 		</data>
 		<key>CountryListViewController.nib</key>
 		<data>
-		qeuli9TQ24HPpx9UY2bFnYll+WQ=
+		TmE8ACt1iasqraTwzKT2USwwxZM=
 		</data>
 		<key>CountrySelectionViewController.nib</key>
 		<data>
-		X/luXdPzheEeUZTRdN3gvnBSlWg=
+		Xo7c0fsJQOLMXtRw/2iK3DmR3+A=
+		</data>
+		<key>DatabaseVerificationViewController.nib</key>
+		<data>
+		zHFKR45vjQVsRm/FkVQ0J8ltnSo=
 		</data>
 		<key>EnterBasicDetailsViewController.nib</key>
 		<data>
-		62lKmw4zqMK9OthBgJebhwX7sW8=
+		n8/NLYNilQsX9HbEFOG1AsRunag=
 		</data>
 		<key>EnterConfirmationCodeViewController.nib</key>
 		<data>
-		eNmJ5gl8jZabxUqK5aGbbsq+dz4=
-		</data>
-		<key>EnterNameViewController.nib</key>
-		<data>
-		JXSg1CcTXDe68F/4NlbJZD8IlrI=
+		dr5ogvkcu0rChw20LsOX3MsxKno=
 		</data>
 		<key>EnterPhoneNumberViewController.nib</key>
 		<data>
-		868nLu9W2WURMHbWWv9aqe56l+M=
+		BEiUFqlg02vRKk26yUcBU8aBUqM=
 		</data>
 		<key>EnterSSNDetailsViewController.nib</key>
 		<data>
-		xxSg0j2hXT6KkaIIDSh+qlTwrzo=
+		KPOGZCbMcuIMwAMvaSIW3tXPNCE=
 		</data>
 		<key>FailureFormViewController.nib</key>
 		<data>
-		Zkk6MKG4vJ60xBUrBFpqnh5cHb4=
+		fJEBxPCMW1zvbaji7aAlZsX0DJM=
 		</data>
 		<key>FlashViewController.nib</key>
 		<data>
-		ufxjLNepsGXH+UVCLCf8UlTtM3s=
+		Rn/l325cxT1ni5HqFhlYI4nMTcw=
 		</data>
 		<key>GovIdFailureViewController.nib</key>
 		<data>
-		4Csm7ad+yBwYh+C5uIfqTKKg/gE=
+		UN7xuhQ4kl6Pm+HuI41Jyfzb/UY=
 		</data>
 		<key>Headers/Persona-Swift.h</key>
 		<data>
@@ -78,103 +86,111 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kZP9Uj0nX1R0QEMnX/PT6Z/gbNg=
+		CBF2ImRtKmRN2Nm61SpMRGVdIdw=
 		</data>
 		<key>InquiryFailureViewController.nib</key>
 		<data>
-		o+lQfuxtxxtmgt2a0e+wP/uZxzI=
+		cdEMXI4omv80MYAR82AG43GShwE=
 		</data>
 		<key>LoadingViewController.nib</key>
 		<data>
-		miJIDixsSeaLJkOmXzI8JWGhgMs=
+		aO4EHOwpiriClENkK32K02cDPyo=
 		</data>
 		<key>Modules/Persona.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Tu0x6qc1hAx8ND2NWgD/8iNq8qU=
+		AlPZU06V7NPua1UiyVCdMjPeF7M=
 		</data>
 		<key>Modules/Persona.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vtvtr+14Tf1byxsdwXi2SsGKKRQ=
+		pKLKBmZPOn9EOBuMwgM8ljSkZdk=
 		</data>
 		<key>Modules/Persona.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wvcZiyWd2o3Dqe6w+Jc1XImq9O4=
+		7ZfqJ7am/1/WE2HuhzF3gppHy78=
 		</data>
 		<key>Modules/Persona.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Tu0x6qc1hAx8ND2NWgD/8iNq8qU=
+		AlPZU06V7NPua1UiyVCdMjPeF7M=
 		</data>
 		<key>Modules/Persona.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		vtvtr+14Tf1byxsdwXi2SsGKKRQ=
+		pKLKBmZPOn9EOBuMwgM8ljSkZdk=
 		</data>
 		<key>Modules/Persona.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		wvcZiyWd2o3Dqe6w+Jc1XImq9O4=
+		7ZfqJ7am/1/WE2HuhzF3gppHy78=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		UGOU0QPwp0evrLQM+rUdoadrv5M=
 		</data>
+		<key>NameInputViewController.nib</key>
+		<data>
+		ytK14QbBseH+GTgU9o5+4/sTME4=
+		</data>
 		<key>PassportOverlayView.nib</key>
 		<data>
-		uWJsI9crwWuV6+P9v6z7QNxkbfA=
+		WhRjy+sAiXCQa6oTuu7SHoLp3oM=
 		</data>
 		<key>PersonaTableViewCell.nib</key>
 		<data>
-		l60VxcSWDCae+Dot3zbgSBZ/PoY=
+		36vQpPUIRveUXEzZu9R8TdJRuuk=
 		</data>
 		<key>PhotoLibraryPermissionsViewController.nib</key>
 		<data>
-		xre7TXnxgxOq6hpBFuW9/E7orlg=
+		OoCQF8bdwc8xonTck1AQBPUrqGM=
 		</data>
 		<key>PickerButton.nib</key>
 		<data>
-		AmnUNlyaIdNO7g46ZWqlBHu7hs8=
+		VoKOlYG0Sd9WjilcZTBnYJ4AFgA=
 		</data>
 		<key>ProcessingDocumentViewController.nib</key>
 		<data>
-		fljZoiB7zVbMMq3zQWtZa1lZ2zw=
+		s8nwHCEn3BkEJF76jNNiddXYsjo=
 		</data>
 		<key>ProcessingIdViewController.nib</key>
 		<data>
-		wW3KOUSk49LbAoVGXnWb+lTf7To=
+		Ttr9BULHDTOskCCOI1vOryoD+v4=
+		</data>
+		<key>SSNInputViewController.nib</key>
+		<data>
+		4Jme7WVZBL7I/3nIN3M3bx5WM+Y=
 		</data>
 		<key>SelfieFailureViewController.nib</key>
 		<data>
-		aAojWTTSPUwrlqs1ot1NQfH+PM0=
+		5MzX68kaCJWp2km4TEIKsU+5M0I=
 		</data>
 		<key>ShutterButton.nib</key>
 		<data>
-		5iFr6brZldhOqOkMCb1e6Js2xg4=
+		OaIY7KBjDEJtYhyU0E7+H13SX4Q=
 		</data>
 		<key>StartDocumentUploadViewController.nib</key>
 		<data>
-		fMXT6gBU+O8N7BxK0aKzBm3aKl0=
+		OF7Jg68R1BiUXYMPYefgdnQ2MIc=
 		</data>
 		<key>StartGovernmentIdViewController.nib</key>
 		<data>
-		XGgaMjbpI6eQG+M72oiewkgFDx8=
+		fTWc0Hi4cCdHL4b6M2NJ0/zQAks=
 		</data>
 		<key>StartSelfieVerificationViewController.nib</key>
 		<data>
-		toCkvKEQDXDGocenr6BodbzqQuU=
+		jxNuBWHID+MHol6mzqZv84eKr2o=
 		</data>
 		<key>StateListViewController.nib</key>
 		<data>
-		W56EEebuXFnNZXLJw9du2VjHmgA=
+		h8VgvGRxanMAqmvxxDZLkmn8RvM=
 		</data>
 		<key>TakeAutomatedSelfiesViewController.nib</key>
 		<data>
-		uc1p5D1XvVGZTEaRSJUMRTxQDgE=
+		Ce7X2U97U/D/iAvpUOxdoL8JvNg=
 		</data>
 		<key>TakeGovernmentIdPhotoViewController.nib</key>
 		<data>
-		C28XTWKTZwADkleafi5WqpBxLGA=
+		JEQNw7ypr5Lih4INzpMbHTqTb7k=
 		</data>
 		<key>VerificationSuccessViewController.nib</key>
 		<data>
-		WSNmBk9Pi0I/Tw25aoIBg4kjWlY=
+		WPWNPv+AOVkDM7Q6lvzKlDpCd8s=
 		</data>
 		<key>ar.lproj/Internal.strings</key>
 		<dict>
@@ -220,7 +236,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Z++efwK9B4ZzmA7Oh/8qTyP8I0=
+			iNYL3ZgxRlAl6z7NgwzfdWy0uPY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -397,116 +413,130 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AddressInputViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BprjAboasb4jYWQhR14wHBnoMWesDtPWotAqlO81+jQ=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8aliy0JvPXgeIpCmAK06mtElZQ6tmwaclXF/CQSfCg=
+			Cw2yKzvINsZf1bpiNk4wP8f0Wc2kU4cy/3U2z5jcJiQ=
 			</data>
 		</dict>
 		<key>BeginVerifyingViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4RY7Y6kpq2dh7/yPdGtPiChhqqc+KlH73MwYP9bQqQ=
+			7yeUuJ65MmiKbZljrw7k2PVzP7txd5sQCwpp1P8P7DY=
 			</data>
 		</dict>
 		<key>BirthdateChooserViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q2bQzMZaJw6r/K2eGQ00/FnZDwyz9j9n52A5UpcBMqU=
+			2hRSmFNGAdDGE/3vgH8dpD+yy87YoiKW0ckmQZc0WZ0=
+			</data>
+		</dict>
+		<key>BirthdateInputViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			orTe5ZjVRkIk2TBbZ5BhH+wxc4AqdF840ADzYfGbVWg=
 			</data>
 		</dict>
 		<key>CameraPermissionsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3JfrYL47s2LmQDCdpN6zr7FOI+fVg9Iti14nMOdqmc=
+			EeUvhom8Zwo2K4VnuFuLwDV+MH0Xp6ojJvje5zPEMxs=
 			</data>
 		</dict>
 		<key>CancelViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bz6w+RLsa9rz5wwygtHdr9qB7gQJxGMZMHNTIXLIMWk=
+			2kni0hWjah0vovRmDRmwX2GmInqXq7NySA26kf0y7rg=
 			</data>
 		</dict>
 		<key>ConfirmGovernmentIdPhotoViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P+5ri74jo68WtUCzRXcza0BGRK/8AadthI2lyA8GJyA=
+			5dOxEbMfV0BxRynnwJu4vhOMHJk1zhpbBetIr9gWPlQ=
 			</data>
 		</dict>
 		<key>CountryListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pzIbJzYpe0/Oz28R6vBoSD44S3BOAvv+8f6kxYYIYH8=
+			hIP9EWFh2g+ccAt9c3lmLfHKNGyzDNryFgaWi3QY0Tk=
 			</data>
 		</dict>
 		<key>CountrySelectionViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o7aNuvxpTKHLieIXp9RMY7aU9voFseWRRW7j8Y0R1g8=
+			r8U7O17NtLm4tBf7CtpBRL9XqENYG3AyUh3IDq4YtmM=
+			</data>
+		</dict>
+		<key>DatabaseVerificationViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			He0j+6rqabz/JS9qjukhsv8ZnRYtQGgvqhhOTpiP4wY=
 			</data>
 		</dict>
 		<key>EnterBasicDetailsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K6VBY2j1m/5bSbqEZjWcCpF7WDAwkO9/K8UKx3L/XSA=
+			gQhJGUYnBuHrAAFTLblYCh0+FTHA5xAMhUVX1mFWSC4=
 			</data>
 		</dict>
 		<key>EnterConfirmationCodeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y7tuqpyan27sSIv8MP7g2SnzdLFaZQTj521L02vbuug=
-			</data>
-		</dict>
-		<key>EnterNameViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3fN6scigR5SO8rKOH8UXT2N5/5lO/IToEhtQXhg34d4=
+			xihNO/rhwWa6dN7xXcOWycqoLaDh8mCesl7HZycOPBw=
 			</data>
 		</dict>
 		<key>EnterPhoneNumberViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YhqS2ty8SJQybAjZJTUbOIj2qgUmy38R1wOO7BXBShM=
+			hIc26RZRs+26i5oN1uIFvhpapEoq8wyxXXDrpLgMcWI=
 			</data>
 		</dict>
 		<key>EnterSSNDetailsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PTnb4IypJ2XjYa1e6PSmRnYVEQ/vLjLLOH4oZsXhgWc=
+			TGRcPUpd+OcdijDrBDuIlcqetYMEjJpDbD2QiAOBwgU=
 			</data>
 		</dict>
 		<key>FailureFormViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MCWqrwE7TOHqGxlHoobxEuW2lo8t4IaUoYYx/ea/iA8=
+			WozSHUhIOT+Qt6T6pI8P1Cb7aoCR/SzB6VI792e5WOA=
 			</data>
 		</dict>
 		<key>FlashViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FgyN8MY/rJoVM2haz5DGePSP848v/rC972eSCk5Xjjg=
+			AQx6uvpGhloFmsnArcSQrOaBX6fYCjrwsU/MI829OOU=
 			</data>
 		</dict>
 		<key>GovIdFailureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fr4GHt7+H32dpT/ZnhorRKOmEBiPzTuLShbIfpFr2Q0=
+			cm+aNvxHzp7Zz7u3rNdXlOOOtT37qsxTGCiDM5GALyg=
 			</data>
 		</dict>
 		<key>Headers/Persona-Swift.h</key>
@@ -527,56 +557,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aiGZyh9KawkA0KOD+Gzrwjt8ZxwCzPcgd/BSuJpQXkM=
+			gwkTpytr+Q3PfObuAWZVCzUFfH52A9xj8s/4en1EhB0=
 			</data>
 		</dict>
 		<key>LoadingViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeLZMESTIikovGDcMV+AHlzEBmWPaG9162GInU+DxEo=
+			OwR899tTTY1C/P/BGH3T02KAOj32mwsaT/pgla1czzo=
 			</data>
 		</dict>
 		<key>Modules/Persona.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/VqakvOxBkvvcuKdXZwWGYxrMt2QbHoPfoOV6lstrw=
+			JKgALQJf1hSz+NoTSYjQh+RedIrGNRtDLhBRcooYTcA=
 			</data>
 		</dict>
 		<key>Modules/Persona.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEs7+ayXduq/JgYYFOf42wJfgfJ4N2zWru/LvKBJVl0=
+			8gUDFDUch4K/JiJlkzRqcL+PWwcIlSi8mH9v+WwByz8=
 			</data>
 		</dict>
 		<key>Modules/Persona.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/5q4IRi5BG6CnMOakrUZucnWjRx+LyfF64kuWw1UnhQ=
+			VurrekJ2JY3M4FtlTRYBBl9lI2/9/RINSEvbiOT28pM=
 			</data>
 		</dict>
 		<key>Modules/Persona.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/VqakvOxBkvvcuKdXZwWGYxrMt2QbHoPfoOV6lstrw=
+			JKgALQJf1hSz+NoTSYjQh+RedIrGNRtDLhBRcooYTcA=
 			</data>
 		</dict>
 		<key>Modules/Persona.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEs7+ayXduq/JgYYFOf42wJfgfJ4N2zWru/LvKBJVl0=
+			8gUDFDUch4K/JiJlkzRqcL+PWwcIlSi8mH9v+WwByz8=
 			</data>
 		</dict>
 		<key>Modules/Persona.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/5q4IRi5BG6CnMOakrUZucnWjRx+LyfF64kuWw1UnhQ=
+			VurrekJ2JY3M4FtlTRYBBl9lI2/9/RINSEvbiOT28pM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -586,109 +616,123 @@
 			hqgEqBmYjhs/kE92jsLb7z5LyF9Lrd8DUmdbKB1pLwM=
 			</data>
 		</dict>
+		<key>NameInputViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n2KGyL8NQM2fMRFO7Nfmg66rERIghOKMRL+3u1TIl+A=
+			</data>
+		</dict>
 		<key>PassportOverlayView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tRU59rFvIRNl6UncDm/eJEoqg9vSUw7uWGBwJJxYyGg=
+			SyypoBv+9pemfo3+3wSPNBXxMd7RElX57ADaxqBbcPU=
 			</data>
 		</dict>
 		<key>PersonaTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			opKpJCEJfZurGUHu9Z/p+FGuCCx2KCQ7FrZgFHkxni4=
+			qgEzWb4BNyHOUrsVQ15WX2vlcB+Tmr9T2vB+yUZmUE0=
 			</data>
 		</dict>
 		<key>PhotoLibraryPermissionsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ccXDK/dz6RicEpFIKVued5IrGVOnPGt8dFquGZaofQ=
+			XAZ6iD7FV3fmHDPUBpXrfxD/dp9OufSyaPFDof3Q+Jg=
 			</data>
 		</dict>
 		<key>PickerButton.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j3xvDHAmkLl4cZS70Yhn1gFGbihahTEjdPl4d3WYp9M=
+			iUpC6DFtqjFKR1cVKV3QZfpIj5aRn0xuQihCa4Lw1r8=
 			</data>
 		</dict>
 		<key>ProcessingDocumentViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UUM1WNfeyeAp1cBHCAcsojMKld237foN28D2+yRUgNU=
+			eN19ehFIoxqRaNz598u4fpd9zGn/w8l24eL8JFaToPo=
 			</data>
 		</dict>
 		<key>ProcessingIdViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M+q75DD0zAV6QsMyzN4k4TAY7Yeq7QduUK5FQ5EbsrM=
+			MqYFftq5XFw9fE+lolUh4GBrH2ybELgIB3ujisZtSMM=
+			</data>
+		</dict>
+		<key>SSNInputViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oK6OQ8yk0d423YLweXXtWxpAvpqrkQCrOX5eG6Hd+wc=
 			</data>
 		</dict>
 		<key>SelfieFailureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eBWrUIBP5AIe68gy7cP3FfEJuHQwitChsAzr1QiWL0s=
+			mUxwDfYrYnm9fXduLzYVRpN6OrBki3ef+biJA7eyyq8=
 			</data>
 		</dict>
 		<key>ShutterButton.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULZ2gm23qoLy0DEyksABUgw1sLrRS1nGLXzZRmDb9ZA=
+			LdWEkOYGqBx01ETAJ0we3TNQp/n1KabpmXgk7mv+Ftw=
 			</data>
 		</dict>
 		<key>StartDocumentUploadViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1f6Ua0C+WEZ4VrUnzdXoQ/xaizDAN8agyFwRlSnRMfw=
+			fYUp0NTwOFykvL84U1Rki3HTLJdi1wWwQmHp/b0Fdr8=
 			</data>
 		</dict>
 		<key>StartGovernmentIdViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YJShBgxFkraLLpx7nO/0WR6A8ncAf47MKoNsoWiic6U=
+			SwtB/1oM4+Aox0VYCrzMTsAXXPO+xZqm85zM50aG0qw=
 			</data>
 		</dict>
 		<key>StartSelfieVerificationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mo8dRsTlooOjTWDkpxhyA0ZcNY2PLuh+ZKJcqi2z2j4=
+			pvjpgSLlzCU67jVGY4oSsnZQmzIZ/UDQBSTCcZNZ1rI=
 			</data>
 		</dict>
 		<key>StateListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJFRZdj951SsP/eUmUCLW468TchQMnQWVuKwnGPUJBE=
+			V/xLut9duNrsT/lllmEZ8PTsvrMFxaLZ7QNq2qW5Fx8=
 			</data>
 		</dict>
 		<key>TakeAutomatedSelfiesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qZXYOvT+21W2SAewiITMg4UUPZMgAdVhLX0cdhtJv0=
+			nvoG78vqm/Q3GHwwzE5nJUfnmqILPl85FpRAbbZe9EU=
 			</data>
 		</dict>
 		<key>TakeGovernmentIdPhotoViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LHmd4s9rGU3nx2M3JdA9jnqr3w0+51GqH3F0tdHi9Pw=
+			wypwGqL9udZCNQLya9vTtwJ/jUbt4TnZiWu4KKiOCXM=
 			</data>
 		</dict>
 		<key>VerificationSuccessViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LzouXvxQX0MQVcux0DbuYu/6S3XAnygNy/8NJXhH2nE=
+			o6EszfZ+nX8NK5HIrzisPUN4LKgODTztwYgXRMi3KJg=
 			</data>
 		</dict>
 		<key>ar.lproj/Internal.strings</key>
@@ -738,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zk4auyWrrXPDlmMCJWkhhISpPH7V82etzy8vqNIBKug=
+			aJvj9VbVmAnIs32o07mevA+OyNY21ynYkl3lufOJgbg=
 			</data>
 			<key>optional</key>
 			<true/>

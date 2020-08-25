@@ -3,7 +3,7 @@ PODS:
     - CocoaLumberjack/Core (= 3.6.2)
   - CocoaLumberjack/Core (3.6.2)
   - lottie-ios (3.1.8)
-  - PersonaInquirySDK (0.12.0):
+  - PersonaInquirySDK (0.12.1):
     - lottie-ios (= 3.1.8)
     - SVGKit (= 3.0.0-beta3)
   - SVGKit (3.0.0-beta3):
@@ -22,9 +22,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
-  PersonaInquirySDK: 6c52794e95316fd51b98f3490d9f60049d7cea86
+  PersonaInquirySDK: 60823630028d18f00d33927a613be4ecc5a4c812
   SVGKit: 35ddd1bb2f711bcb25227be8b356facccbffc32d
 
-PODFILE CHECKSUM: fa9e7a0d8a0748a1c2ba41e614717aac72a22440
+PODFILE CHECKSUM: 27e716ea038bd16445708caf25ebb13be5ab990f
 
 COCOAPODS: 1.9.3

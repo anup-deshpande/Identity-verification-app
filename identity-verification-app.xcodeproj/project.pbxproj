@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		762CD7F224F45CC60086404F /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762CD7F124F45CC60086404F /* constants.swift */; };
+		762CD7F424F472300086404F /* id-verification.json in Resources */ = {isa = PBXBuildFile; fileRef = 762CD7F324F4722F0086404F /* id-verification.json */; };
 		76760FB324F43046004D3BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76760FB224F43046004D3BA6 /* AppDelegate.swift */; };
 		76760FB524F43046004D3BA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76760FB424F43046004D3BA6 /* SceneDelegate.swift */; };
 		76760FB724F43046004D3BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76760FB624F43046004D3BA6 /* ViewController.swift */; };
 		76760FBA24F43046004D3BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76760FB824F43046004D3BA6 /* Main.storyboard */; };
 		76760FBC24F43047004D3BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76760FBB24F43047004D3BA6 /* Assets.xcassets */; };
 		76760FBF24F43047004D3BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76760FBD24F43047004D3BA6 /* LaunchScreen.storyboard */; };
+		767F095524F54EE1008F61D8 /* documentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F095424F54EE1008F61D8 /* documentsViewController.swift */; };
+		767F095C24F54F69008F61D8 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F095B24F54F69008F61D8 /* enums.swift */; };
 		B8F664B477DE9E907C5BE71B /* Pods_identity_verification_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228A38C87CF81C4B5E2BF8E6 /* Pods_identity_verification_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		228A38C87CF81C4B5E2BF8E6 /* Pods_identity_verification_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_identity_verification_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		762CD7F124F45CC60086404F /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		762CD7F324F4722F0086404F /* id-verification.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "id-verification.json"; sourceTree = "<group>"; };
 		76760FAF24F43046004D3BA6 /* identity-verification-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "identity-verification-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76760FB224F43046004D3BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76760FB424F43046004D3BA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		76760FBB24F43047004D3BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76760FBE24F43047004D3BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76760FC024F43047004D3BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767F095424F54EE1008F61D8 /* documentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = documentsViewController.swift; sourceTree = "<group>"; };
+		767F095B24F54F69008F61D8 /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		AB653F3EE07E4D79B8FDB438 /* Pods-identity-verification-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-identity-verification-app.release.xcconfig"; path = "Target Support Files/Pods-identity-verification-app/Pods-identity-verification-app.release.xcconfig"; sourceTree = "<group>"; };
 		C5A2E476944DC09CAA1FE7F8 /* Pods-identity-verification-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-identity-verification-app.debug.xcconfig"; path = "Target Support Files/Pods-identity-verification-app/Pods-identity-verification-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,16 +71,59 @@
 		76760FB124F43046004D3BA6 /* identity-verification-app */ = {
 			isa = PBXGroup;
 			children = (
-				76760FB224F43046004D3BA6 /* AppDelegate.swift */,
-				76760FB424F43046004D3BA6 /* SceneDelegate.swift */,
-				76760FB624F43046004D3BA6 /* ViewController.swift */,
-				76760FB824F43046004D3BA6 /* Main.storyboard */,
+				767F095924F54F25008F61D8 /* Storyboards */,
+				767F095624F54EEB008F61D8 /* Application Delegate */,
+				767F095724F54EFC008F61D8 /* View Controllers */,
+				767F095824F54F12008F61D8 /* Animation Files */,
+				767F095A24F54F39008F61D8 /* Resources */,
 				76760FBB24F43047004D3BA6 /* Assets.xcassets */,
-				76760FBD24F43047004D3BA6 /* LaunchScreen.storyboard */,
 				76760FC024F43047004D3BA6 /* Info.plist */,
-				762CD7F124F45CC60086404F /* constants.swift */,
 			);
 			path = "identity-verification-app";
+			sourceTree = "<group>";
+		};
+		767F095624F54EEB008F61D8 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				76760FB224F43046004D3BA6 /* AppDelegate.swift */,
+				76760FB424F43046004D3BA6 /* SceneDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		767F095724F54EFC008F61D8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76760FB624F43046004D3BA6 /* ViewController.swift */,
+				767F095424F54EE1008F61D8 /* documentsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		767F095824F54F12008F61D8 /* Animation Files */ = {
+			isa = PBXGroup;
+			children = (
+				762CD7F324F4722F0086404F /* id-verification.json */,
+			);
+			path = "Animation Files";
+			sourceTree = "<group>";
+		};
+		767F095924F54F25008F61D8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				76760FB824F43046004D3BA6 /* Main.storyboard */,
+				76760FBD24F43047004D3BA6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		767F095A24F54F39008F61D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				762CD7F124F45CC60086404F /* constants.swift */,
+				767F095B24F54F69008F61D8 /* enums.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B65F39D808007B11AD4F8A68 /* Frameworks */ = {
@@ -157,6 +206,7 @@
 			files = (
 				76760FBF24F43047004D3BA6 /* LaunchScreen.storyboard in Resources */,
 				76760FBC24F43047004D3BA6 /* Assets.xcassets in Resources */,
+				762CD7F424F472300086404F /* id-verification.json in Resources */,
 				76760FBA24F43046004D3BA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76760FB724F43046004D3BA6 /* ViewController.swift in Sources */,
+				767F095524F54EE1008F61D8 /* documentsViewController.swift in Sources */,
 				76760FB324F43046004D3BA6 /* AppDelegate.swift in Sources */,
 				76760FB524F43046004D3BA6 /* SceneDelegate.swift in Sources */,
+				767F095C24F54F69008F61D8 /* enums.swift in Sources */,
 				762CD7F224F45CC60086404F /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

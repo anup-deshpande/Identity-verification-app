@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="identity_verification_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRn-tE-Quo">
+                                <rect key="frame" x="40" y="752" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jqa-HB-KFe"/>
+                                </constraints>
+                                <state key="normal" title="Verify ID with Persona"/>
+                                <connections>
+                                    <action selector="verifyButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QQ4-vG-JNo"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="document" translatesAutoresizingMaskIntoConstraints="NO" id="e5M-eS-EL0">
+                                <rect key="frame" x="57" y="144" width="300" height="228"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="228" id="9r6-SC-JCz"/>
+                                    <constraint firstAttribute="width" constant="300" id="Jl5-TB-Ntp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access to documents is secured." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyW-pv-nah">
+                                <rect key="frame" x="20" y="392" width="374" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use any goverment-issued photo ID to verify your identity." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4l-FN-Dxi">
+                                <rect key="frame" x="30" y="430" width="354" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JRn-tE-Quo" secondAttribute="bottom" constant="60" id="AqO-cy-Hu4"/>
+                            <constraint firstItem="F4l-FN-Dxi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Hbh-lp-x5K"/>
+                            <constraint firstItem="F4l-FN-Dxi" firstAttribute="top" secondItem="dyW-pv-nah" secondAttribute="bottom" constant="15" id="Tzw-2U-OF2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JRn-tE-Quo" secondAttribute="trailing" constant="40" id="Zk3-9j-cyR"/>
+                            <constraint firstItem="dyW-pv-nah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dld-Zm-x6H"/>
+                            <constraint firstItem="dyW-pv-nah" firstAttribute="top" secondItem="e5M-eS-EL0" secondAttribute="bottom" constant="20" id="eMG-49-Gnh"/>
+                            <constraint firstItem="e5M-eS-EL0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ize-ca-P9n"/>
+                            <constraint firstItem="JRn-tE-Quo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="l5Q-JH-Yp8"/>
+                            <constraint firstItem="e5M-eS-EL0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n1c-d6-kR7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dyW-pv-nah" secondAttribute="trailing" constant="20" id="roA-GB-GEl"/>
+                            <constraint firstAttribute="trailing" secondItem="F4l-FN-Dxi" secondAttribute="trailing" constant="30" id="s72-rc-Wyt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QQG-cL-uEZ"/>
+                    <connections>
+                        <outlet property="verifyButton" destination="JRn-tE-Quo" id="XJu-n4-veq"/>
+                        <segue destination="EvT-1c-8KE" kind="presentation" identifier="presentDocumentSegue" modalPresentationStyle="fullScreen" id="nRo-KK-u37"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
+        </scene>
+        <!--Documents-->
+        <scene sceneID="gOJ-h8-jfR">
+            <objects>
+                <viewController storyboardIdentifier="documentsViewController" id="lU7-zR-ePp" customClass="documentsViewController" customModule="identity_verification_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GS7-Qy-dt5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Documents will appear here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWz-VA-Bdb">
+                                <rect key="frame" x="90.5" y="437.5" width="233.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hTN-hZ-nav"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xWz-VA-Bdb" firstAttribute="centerX" secondItem="GS7-Qy-dt5" secondAttribute="centerX" id="68j-un-zjZ"/>
+                            <constraint firstItem="xWz-VA-Bdb" firstAttribute="centerY" secondItem="GS7-Qy-dt5" secondAttribute="centerY" id="s2j-eC-u4C"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Documents" id="E2h-ol-lHZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n3W-T9-hIS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2892.753623188406" y="93.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vxp-H4-8lO">
+            <objects>
+                <navigationController storyboardIdentifier="documentsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="EvT-1c-8KE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="6l7-4d-G5W"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sPi-xQ-XNV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lU7-zR-ePp" kind="relationship" relationship="rootViewController" id="FAZ-s8-zXJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gnx-mD-Bv8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1982.608695652174" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="document" width="1158" height="926"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
